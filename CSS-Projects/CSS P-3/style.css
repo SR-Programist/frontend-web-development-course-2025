@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+}
+
+.part-1{
+    display: grid;
+    grid-template-rows: 600px 400px;
+    row-gap: 10px;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.large{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+}
+
+.pink{
+    background-color: pink;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.part-2{
+    display: grid;
+    grid-template-rows: 400px 600px;
+    row-gap: 10px;
+}
+
+.larger{
+    display: grid;
+    grid-template-columns: 300px 300px;
+}

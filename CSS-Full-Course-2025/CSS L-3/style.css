@@ -1,0 +1,26 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+body{
+    height: 800px;
+}
+
+.pera{
+    width: 50%;
+    height: 50%;
+    background-color: green;
+}
+
+.vh{
+    height: 50vh;
+    background-color: blue;
+}
+
+.vw{
+    width: 50vw;
+    height: 30vh;
+    background-color: yellow;
+}

@@ -1,0 +1,18 @@
+.box{
+    color: red;
+}
+
+.rgb{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0,0,0);
+}
+
+.rgba{
+    background-color: rgba(255,0,0,0.3);
+}
+
+.hexa{
+    background-color: #000;
+    color: #fff;
+    background-color: #4635B1;
+}

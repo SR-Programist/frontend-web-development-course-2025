@@ -1,0 +1,21 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border: 2px solid black;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+    transition-delay: 1s;
+    transition: all 2s ease-in 1s;
+}
+
+.box:hover{
+    width: 200px;
+    background-color: red;
+}
+
+.box:active{
+    width: 400px;
+    background-color: green;
+}

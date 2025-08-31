@@ -1,0 +1,19 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+body{
+    background-image: url(code.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.image{
+    width: 400px;
+    height: 800px;
+    background-image: url(code.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}

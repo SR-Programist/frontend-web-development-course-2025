@@ -1,0 +1,37 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.heading{
+  width: 100vw;
+  height: 80px;
+  color: white;
+  text-align: center;
+  line-height: 80px;
+  background: black;
+}
+
+.container{
+  width: 1280px;
+  margin: auto;
+  padding: 30px;
+  display: flex;
+  gap: 25px;
+}
+
+.container div{
+  padding: 5px;
+  border: 1px solid black;
+}
+
+.post{
+  width: 1280px;
+  margin: auto;
+  padding-top: 25px;
+}
+
+.post h2{
+  margin-bottom: 20px;
+}

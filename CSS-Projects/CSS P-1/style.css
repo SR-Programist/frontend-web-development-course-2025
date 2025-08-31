@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.gray{
+    background-color: gray;
+}
+
+.larger{
+    width: 800px;
+    height: 500px;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.large{
+    width: 400px;
+    height: 500px;
+}
+
+.colum{
+    display: flex;
+    flex-direction: column;
+}
+
+.small{
+    width: 200px;
+    height: 400px;
+}
+
+.eqva{
+    width: 400px;
+    height: 200px;
+    background-color: aqua;
+}
+
+.pink{
+    width: 400px;
+    height: 200px;
+    background-color: pink;
+}

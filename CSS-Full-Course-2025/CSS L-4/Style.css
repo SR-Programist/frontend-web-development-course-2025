@@ -1,0 +1,47 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.relative{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    position: relative;
+    top: 10px;
+}
+
+.a1{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: aqua;
+}
+
+.a2{
+    position: absolute;
+    top: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+body{
+    height: 2000px;
+}
+
+.fix{
+    position: fixed;
+    top: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+
+.sticky{
+    position: sticky;
+    bottom: 50px;
+    height: 80px;
+    background-color: yellow;
+}
